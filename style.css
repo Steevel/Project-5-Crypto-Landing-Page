@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden
+}
+
+/* Navbar  */
+.navbar {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 5px 40px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.line {
+    width: 1px;
+    height: 40px;
+    background-color: white;
+}
+
+.grow-list {
+    margin-right: 200px;
+    font-weight: 600;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+}
+
+.list-item {
+    margin: 25px;
+
+}
+
+.button-small {
+    background-color: #BA0CC5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* Hero section  */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+    align-items: center;
+    height: 90vh;
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.hero-heading {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    text-align: center;
+    margin: 0px 235px;
+}
+
+.hero-description {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.button-large {
+    background-color: #BA0CC5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
